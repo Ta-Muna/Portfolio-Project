@@ -31,9 +31,41 @@
       src="https://kit.fontawesome.com/7fa66211b7.js"
       crossorigin="anonymous"
     ></script>
-    <title>Tamari Pilia - SheCodes Responsive - Portfolio</title>
+    <title>About Tamari Pilia</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="HomePage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="logo"
+          />
+          <img
+            src="images/logo-small.png"
+            class="logo d-block d-md-none"
+            alt="smaller logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Tamari page"> About</a>
+          </li>
+
+          <li>
+            <a href="/work.html" title="Tamari's Work page"> Work</a>
+          </li>
+
+          <li>
+            <a href="/contact.html" title="Contact Tamari page"> contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -54,5 +86,56 @@
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+
+        <div>
+          <a href="/contact.html" class="btn btn-branding" title="Contact me">
+            Contact me</a
+          >
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:tamaripilia@gmail.com"
+          class="email-link"
+          title="Email Tamari"
+        >
+          tamaripilia@gmail.com
+        </a>
+      </div>
+
+      <div class="social-links d-flex justify-content-center mb-5">
+        <a
+          href="https://www.instagram.com/tamunapilia"
+          target="_"
+          title="Instagram Profile"
+        >
+          <i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://github.com/Ta-Muna" target="_" title="GitHub Profile"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/tamuna.pilia.9"
+          target="_"
+          title="Facebook Profile"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+      </div>
+      <p class="text-center mt-5">
+        This project was coded by Tamari Pilia, it is
+        <a href="https://github.com/Ta-Muna/Portfolio-Project" target="_"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
