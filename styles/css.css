@@ -20,12 +20,13 @@ h6 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 65px;
   line-height: 1.5;
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 44px;
+  text-align: center;
 }
 
 h3 {
@@ -40,7 +41,7 @@ p {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 80px 20px;
+  padding: 50px 20px;
 }
 
 .hero p {
@@ -102,10 +103,12 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  margin-bottom: 30px;
 }
 
 .project-description {
-  padding: 120px 60px;
+  padding: 1px 60px;
+  text-align: center;
 }
 
 .logo {
@@ -183,10 +186,6 @@ footer .social-links a:hover {
   h1 {
     font-size: 44px;
     line-height: 56px;
-  }
-
-  h2 {
-    font-size: 44px;
   }
 
   h3 {
