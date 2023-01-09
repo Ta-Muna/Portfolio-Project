@@ -70,6 +70,7 @@ p {
 .content h1 {
   font-size: 44px;
   line-height: 80px;
+  text-align: center;
 }
 
 .content h2 {
@@ -87,6 +88,10 @@ p {
 .content p {
   font-size: 14px;
   text-align: justify;
+}
+
+.content a {
+  text-decoration: none;
 }
 
 .content {
@@ -112,7 +117,7 @@ p {
   margin-bottom: 30px;
 }
 
-.project-description {
+.description {
   padding: 1px 60px;
   text-align: center;
 }
